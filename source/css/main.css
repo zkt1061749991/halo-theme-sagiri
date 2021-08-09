@@ -7314,3 +7314,39 @@ body {
     font-family: Candyshop;
     src: url(https://cdn.jsdelivr.net/gh/cetr/halo-theme-sagiri@sagiri-cdn/font/Candyshop.otf)
 }
+
+/*my new css*/
+.notice-warning {
+    position: relative;
+    margin: 28px 0 16px;
+    padding: 10px 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    text-shadow: 0 -1px #faad14;
+    box-shadow: 0 1px 5px #faaa0a, 0 0 2px #faab0f;
+    background: linear-gradient(
+90deg
+,#faad14,#fbbe46);
+}
+.notice-warning:before {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    top: -12px;
+    left: -12px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2.5px #fff;
+    color: #fff;
+    content: "!";
+    text-shadow: 0 -1px #faad14;
+    background: linear-gradient(0,#faad14,#fbbe46);
+}
+
