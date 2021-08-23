@@ -1,11 +1,11 @@
-id: cetr_sagiri
+id: Kagiri
 name: Kagiri
 author:
   name: 一山一树己
   website: https://blog.coor.top
 description: As lovely as sagiri. A theme for halo
 logo:
-website: https://github.com/cetr/halo-theme-sagiri
-repo: https://github.com/cetr/halo-theme-sagiri
-version: 2.0.6
-require: 1.4.0
+website: https://gitee.com/zkt1061749991/halo-theme-sagiri
+repo: https://gitee.com/zkt1061749991/halo-theme-sagiri
+version: 1.0.0
+require: 1.0.0
