@@ -12,8 +12,8 @@
                 })
             </script>
         </#if>
-        <p>Copyright &copy; ${.now?string('yyyy')}
-            <a href="${blog_url!}"> ${user.nickname!}</a>
+        <p> &copy; 2020~${.now?string('yyyy')} |
+
             <#if settings.icp??>
                 <a href="https://beian.miit.gov.cn" target="_blank">${settings.icp!}</a><br>
             </#if>
